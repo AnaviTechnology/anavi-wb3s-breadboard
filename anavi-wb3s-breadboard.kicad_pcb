@@ -465,6 +465,7 @@
 		(fp_text user "${REFERENCE}"
 			(at 0.49 -0.8 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "48e026ec-1980-4490-bc37-5cdf7efe4859")
 			(effects
 				(font
@@ -1744,18 +1745,6 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
-		)
-	)
-	(gr_text "Breakout Board\nfor ESP-12E/F"
-		(at 86.36 82.55 90)
-		(layer "B.SilkS")
-		(uuid "e6f50139-f300-4b87-8f67-507740973ff6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
 		)
 	)
 	(gr_text "P1"
